@@ -1,29 +1,24 @@
 # EX 1 You’re creating a health monitoring device which stores several sensor readings in an array. To determine the minimum value (e.g., lowest heartbeat), implement a recursive method.
-## DATE: 17.09.2026
+## DATE: 13.08.2025
+## Developed by: VARSHA A
+## RegisterNumber:212223220121
 ## AIM:
 To write a JAVA program To determine the minimum value (e.g., lowest heartbeat), implement a recursive method.
 
 ## Algorithm
 1. Start
-   
 2.Read the number of elements (e.g., number of heartbeat readings).
-
 3.Store all readings in an array.
-
 4.Call a recursive function findMin(arr, index)
 If index == arr.length - 1, return arr[index]
 Else return min(arr[index], findMin(arr, index + 1))
-
 5.Print the minimum value returned by the recursive function.
-
 6.End 
 
 ## Program:
 ```
 /*
 Program To determine the minimum value (e.g., lowest heartbeat), implement a recursive method.
-Developed by: Austin Aro A
-RegisterNumber: 212224040038
 */
 import java.util.*;
 
@@ -59,10 +54,9 @@ public class Main {
 ## Result:
 Thus the JAVA program to find the minimum value (e.g., lowest heartbeat), implement a recursive method has implemented successfully
 
----
 
 # Ex2 Count how many times a number appears in an array recursively.
-## DATE: 17.09.2026
+## DATE: 20.08.2025
 ## AIM:
 To write a Java program to Count how many times a number appears in an array recursively.
 
@@ -77,8 +71,6 @@ To write a Java program to Count how many times a number appears in an array rec
 ```
 /*
 Program Count how many times a number appears in an array recursively.
-Developed by: Austin Aro A
-RegisterNumber: 212224040038
 */
 import java.util.Scanner;
 
@@ -136,10 +128,9 @@ public class CountOccurrences {
 ## Result:
 Thus, the Java program to Count how many times a number appears in an array recursively is implemented successfully.
 
----
 
 # EX3 Write a program to count the number of digits in an integer.
-## DATE: 17.09.2026
+## DATE: 27.08.2025
 ## AIM:
 To write a C program to implement Tower of Hanoi
 
@@ -156,8 +147,6 @@ To write a C program to implement Tower of Hanoi
 ```
 /*
 Program to to count the number of digits in an integer
-Developed by: Austin Aro A
-RegisterNumber: 212224040038
 */
 import java.util.Scanner;
 
@@ -189,10 +178,8 @@ public class CountDigitsRecursive {
 ## Result:
 Thus, the Java program to to count the number of digits in an integer is implemented successfully.
 
----
-
 # Ex4 You are given a Java program that performs matrix addition. If Matrix A has all odd numbers and Matrix B has all even numbers of the same dimension, what will be the nature (even/odd/mixed) of the resulting matrix?
-## DATE: 17.09.2026
+## DATE: 3.09.2025
 ## AIM:
 To write a java function to evaluate weather the given Matrix A has all odd numbers and Matrix B has all even numbers of the same dimension and find the nature of resultant matrrix.
 
@@ -215,8 +202,6 @@ To write a java function to evaluate weather the given Matrix A has all odd numb
 ```
 /*
 Program to ind the nature of resultant matrrix.
-Developed by: Austin Aro A
-RegisterNumber: 212224040038
 */
 import java.util.Scanner;
 
@@ -265,10 +250,9 @@ public class MatrixAddition {
 ## Result:
 Thus, the java program to evaluate weather the given Matrix A has all odd numbers and Matrix B has all even numbers of the same dimension and find the nature of resultant matrrix is implemented successfully.
 
----
 
 # Ex5 Count Inversions in an Array
-## DATE: 17.09.2026
+## DATE: 10.09.2025
 ## AIM:
 To write a Java program  to Count the number of inversions in an array where inversion is defined as: arr[i] > arr[j] and i < j
 
@@ -290,8 +274,6 @@ To write a Java program  to Count the number of inversions in an array where inv
 ```
 /*
 Program toto Count the number of inversions in an array where inversion is defined as: arr[i] > arr[j] and i < j
-Developed by: Austin Aro A
-RegisterNumber: 212224040038
 */
 import java.util.Scanner;
 
